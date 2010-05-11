@@ -1,0 +1,9 @@
+#!/bin/sh
+
+for i in *.tpl
+do
+j=`echo $i | sed 's/benefit/rental/g'`
+#mv "$i" "$j"
+
+echo $j
+done
